@@ -18,7 +18,6 @@ export async function getFFmpeg() {
       coreURL,
       wasmURL,
       workerURL,
-      //28:40
     });
   }
 
