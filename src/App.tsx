@@ -54,12 +54,24 @@ export function App() {
             Desenvolvido por Guilherme Abreu
           </span>
           <Separator orientation="vertical" className="h-6"></Separator>
-          <Button variant={"outline"}>
-            <Github className="w-4 h-4"></Github>
-          </Button>
-          <Button variant={"outline"}>
-            <Linkedin className="w-4 h-4"></Linkedin>
-          </Button>
+          <a
+            href="https://github.com/gglabreu"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button variant={"outline"}>
+              <Github className="w-4 h-4"></Github>
+            </Button>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/guilhermeab/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button variant={"outline"}>
+              <Linkedin className="w-4 h-4"></Linkedin>
+            </Button>
+          </a>
         </div>
       </div>
 
